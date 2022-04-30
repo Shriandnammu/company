@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.logo1{
+  width: 70px;
+  height: 70px;
+}
+
+.haeder container{
+  background: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+  .navbar-toggler-icon {
+    background-color: #6CC57C;
+    border-block: #6CC57C;
+    
+
+    
+  }
+}
+
+
+
+
+/* <page  1> ----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.home {
+  padding-top: 30rem;
+  padding-bottom: 25rem;
+  
+  background: url(../image/page\ 11.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: content-box;
+  position: relative;
+ 
+}
+
+
+@media only screen and (max-width: 450px) {
+  .home {
+    background: url(../image/apple.png);
+    background-size: cover;
+    
+  }
+}
+
+
+
+
+.home .slides-container .slide.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .slides-container .slide .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 4rem;
+  -webkit-animation: fadeLeft .4s linear .4s backwards;
+          animation: fadeLeft .4s linear .4s backwards;
+}
+
+.home .slides-container .slide .content span {
+  color: #6CC57C;
+  font-size: 5rem;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .home .slides-container .slide .content span {
+    text-align: center;
+    font-size: 1rem;
+    color: wheat;
+  }
+}
+
+
+
+
+.home .slides-container .slide .content h1 {
+  font-size: 5rem;
+  color: #222;
+  padding: .5rem 0;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .home .slides-container .slide .content h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #e0e0e0;
+  }
+}
+
+.home .slides-container .slide .content h2 {
+  font-size: 4.2rem;
+  color: #6CC57C;
+  padding:  0;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+  .home .slides-container .slide .content h2 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+}
+
+
+.home .slides-container .slide .image {
+  -webkit-box-flex: 0;
+      -ms-flex: 1 1  10rem;
+          flex: 1 1 10rem;
+
+}
+
+/* <end of page 1> -------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* <page 2 > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.home2 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  background: url(../image/home3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ 
+}
+@media only screen and (max-width: 450px) {
+  .home2 {
+    background: url(../image/home2.png);
+    background-size: cover;
+    
+  }
+}
+
+
+
+.home2 .slides-container .slide.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home2 .slides-container .slide .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 4rem;
+  -webkit-animation: fadeLeft .4s linear .4s backwards;
+          animation: fadeLeft .4s linear .4s backwards;
+}
+
+.home2 .slides-container .slide .content span {
+  color: #666;
+  font-size: 2.5rem;
+  
+
+ 
+}
+
+
+@media only screen and (max-width: 900px) {
+  .home2 .slides-container .slide .content span {
+    margin-left: 0;
+  }
+}
+
+
+.home2 .slides-container .slide .content h3 {
+  font-size: 3.9rem;
+  color: #222;
+  padding:0;
+  
+}
+@media only screen and (max-width: 900px) {
+  .home2 .slides-container .slide .content h3 {
+    margin-left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .home2 {
+    background: url(../image/home2.png);
+    background-size: cover;
+    font-size: 1.5rem;
+    
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .home2 .slides-container .slide .content h3 {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.home2 .slides-container .slide .content h2 {
+  font-size: 3.9rem;
+  color: #6CC57C;
+  padding: .5rem 0;
+  margin-left: 65rem;
+  position: relative;
+}
+
+@media only screen and (max-width: 900px) {
+  .home2 .slides-container .slide .content h2 {
+    margin-left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .home2 .slides-container .slide .content h2 {
+    text-align: center;
+  }
+}
+
+
+
+
+.home2 .slides-container .slide .image {
+  -webkit-box-flex: 0;
+      -ms-flex: 1 1  10rem;
+          flex: 1 1 10rem;
+
+}
+
+/* < enf of page 2 > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* < page 3 > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.home3 {
+ 
+  background: url(../image/home3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ 
+}
+
+
+
+
+
+
+.home3 .slides-container .slide.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home3 .container .slide .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 4rem;
+  -webkit-animation: fadeLeft .4s linear .4s backwards;
+          animation: fadeLeft .4s linear .4s backwards;
+}
+
+.home3 span{
+  color: #6CC57C;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .home3 .span{
+    text-align: center;
+
+    
+  }
+}
+
+.home3 h3 {
+  font-size: 4rem;
+  color: #222;
+  padding: .5rem 0;
+}
+
+@media only screen and (max-width: 450px) {
+  .home3 h3 {
+    
+    font-size: 2rem;
+    
+  }
+}
+
+.home3 .slides-container .slide .image {
+  -webkit-box-flex: 0;
+      -ms-flex: 1 1  10rem;
+          flex: 1 1 10rem;
+
+}
+
+/* < enf of page 3 > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* < page 4 > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.home4 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  background: url(../image/home3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ 
+}
+
+
+
+.home4 .slides-container .slide.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home4 .container .slide .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 4rem;
+  -webkit-animation: fadeLeft .4s linear .4s backwards;
+          animation: fadeLeft .4s linear .4s backwards;
+}
+
+.home4 span{
+  color: #6CC57C;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .home4 .span{
+    text-align: center;
+
+    
+  }
+}
+
+.home4 h3 {
+  font-size: 4rem;
+  color: #222;
+  padding: .5rem 0;
+}
+
+@media only screen and (max-width: 450px) {
+  .home4 h3 {
+    
+    font-size: 2rem;
+    
+  }
+}
+
+.home4 .slides-container .slide .image {
+  -webkit-box-flex: 0;
+      -ms-flex: 1 1  10rem;
+          flex: 1 1 10rem;
+
+}
+
+
+
+
+/* < enf of page 4 > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* contact page > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.wrapper{
+  
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgb(255, 255, 255); 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 30px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #f9f9f8;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+/* < end of contacr page > ----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
